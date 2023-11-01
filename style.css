@@ -47,19 +47,20 @@
     background-color: #242457;
     color: white;
     padding: 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 footer img {
     width: 3%;
-    display: flex;
-    flex-direction: row;
-    justify: spaced-evenly;
 }
 
 .flex-main {
     background-color: #F5F5F5;
     width: 100%;
     padding-right: 2.5rem;
+    display: flex;
 }
 
 .main-content {
@@ -83,6 +84,10 @@ footer {
     width: 100%;
     padding: 1rem;
     background-color: #59D9A1;
+    display: flex;
+    justify-content: space-evenly;
 }
 
 /* CODE YOUR FLEXBOXES HERE */
+/* grid-column: 1;
+grid-row: 2 / 5; */
